@@ -7,8 +7,8 @@ const nextBtn = document.getElementById('next-btn');
 const prevBtn = document.getElementById('prev-btn');
 
 const states = [
-  { text: 'Plus besoin de te boucher le nez pour échapper à ton odeur 😆', img: 'images/nez.jpg', alt: 'Elle se bouche le nez' },
-  { text: 'Tu pourras sentir bon et faire la belleeeeee!!!', img: 'images/bellleeeeeeeeee.jpg', alt: 'Elle se fait belle' }
+  { text: 'Plus besoin de te boucher le nez pour échapper à ton odeur 🤢🤣', img: 'images/nez.jpg', alt: 'Elle se bouche le nez' },
+  { text: 'Tu pourras sentir bon et faire la belleeeeee!!!😍', img: 'images/bellleeeeeeeeee.jpg', alt: 'Elle se fait belle' }
 ];
 
 let currentIndex = 0;
@@ -93,3 +93,4 @@ validateBtn.addEventListener('click', () => {
 if (savedDates.length > 0) {
   selectedDatesDisplay.textContent = 'Tu as choisi les dates : ' + savedDates.join(', ');
 }
+
