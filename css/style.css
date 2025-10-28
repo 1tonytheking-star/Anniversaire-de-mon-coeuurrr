@@ -198,10 +198,11 @@ details.card:nth-of-type(4) #selected-dates {
 
 /* --- Espacement léger pour la section "Qu’est-ce qu’on fait ?" --- */
 details.card:nth-of-type(1) p {
-  margin-bottom: 10px; /* espace doux sous le texte d’intro */
+  margin-bottom: 20px; /* espace doux sous le texte d’intro */
 }
 
 details.card:nth-of-type(1) ul {
   margin-top: 5px;
   line-height: 1.6; /* rend la liste un peu plus aérée */
 }
+
