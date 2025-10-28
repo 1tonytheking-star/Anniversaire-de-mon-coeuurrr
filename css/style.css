@@ -196,17 +196,15 @@ details.card:nth-of-type(4) #selected-dates {
   font-weight: 500;
 }
 
-/* --- Style pour la liste du premier menu --- */
+/* --- Ajustement de la section "Qu’est-ce qu’on fait ?" --- */
 details.card:nth-of-type(1) p {
-  margin-bottom: 12px; /* espace doux sous le texte d’intro */
+  margin-bottom: 6px; /* espace réduit entre le texte et la liste */
 }
 
 details.card:nth-of-type(1) .menu-liste {
-  list-style: none;
-  margin-top: 8px;
-  line-height: 1.7;
-  padding-left: 0;
+  list-style: none;     /* enlève les points */
+  padding-left: 0;      /* aligne bien le texte */
+  margin-top: 4px;      /* petit espace harmonieux */
+  line-height: 1.5;     /* hauteur de ligne douce */
 }
-
-
 
